@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  listcompr_Cp
-//
-//  Created by Jesus Perez Colino on 10/04/16.
-//  Copyright © 2016 Jesus Perez Colino. All rights reserved.
-//
+
 
 #include <vector>
 #include <cmath>
@@ -26,7 +20,7 @@ int main( ) {
 void list_comprehension( std::vector<int> & numbers , int upper_border ) {
     for ( int a = 1 ; a < upper_border ; a++ ) {
         for ( int b = a + 1 ; b < upper_border ; b++ ) {
-            double c = pow( a * a + b * b , 0.5 ) ; //remembering Mr. Pythagoras
+            double c = pow( a * a + b * b , 0.5 ) ;
             if ( ( c * c ) < pow( upper_border , 2 ) + 1 ) {
                 if ( c == floor( c ) ) {
                     numbers.push_back( a ) ;
