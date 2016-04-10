@@ -88,6 +88,9 @@
 		E0CA0C1C1CBA4C6B00E30C44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Jesus Perez Colino";
 				TargetAttributes = {
